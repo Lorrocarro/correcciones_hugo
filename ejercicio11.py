@@ -1,7 +1,7 @@
-def es_palindromo(palabra):
-    if palabra == palabra[::-1]:
-        print(palabra, "es un palíndromo")
-    else:
-        print(palabra, "no es un palíndromo")
+def calcular_area_triangulo(base, altura):
+    area = 1/2 * base * altura  
+print("El área_triángulo es: + "", + area")
 
-es_palindromo("radar")
+
+
+calcular_area_triangulo(5, 10)

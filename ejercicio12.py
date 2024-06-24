@@ -1,2 +1,4 @@
-lista_numeros = [5, 10, 15, 20, 25]
-print(max(lista_numeros))
+def invertir_cadena(cadena):
+    return cadena[::-]
+
+print(invertir_cadena("hola"))

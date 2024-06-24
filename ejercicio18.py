@@ -1,8 +1,5 @@
-def generar_fibonacci(n):
-    fibonacci = [0, 1]
-    for i in range(2, n):
-        siguiente = fibonacci[-1] + fibonacci[-2]
-        fibonacci.append(siguiente)
-    return fibonacci
+def encontrar_minimo(numeros):
+    return min(numeros)
 
-print(generar_fibonacci(10))
+numeros = [10, 5, 8, 3, 12]
+print("El número más pequeño es:", encontrar_minimo(numeros))

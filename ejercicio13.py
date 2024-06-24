@@ -1,5 +1,3 @@
-def calcular_area_circulo(radio):
-    area = 3.14159 * radio ** 2
-    return area
-
-print("El área del círculo es:", calcular_area_circulo(5))
+numeros = [10, 5, 8, 15, 12]
+mayor = max(numeros)
+print("El número más grande es:", mayor)

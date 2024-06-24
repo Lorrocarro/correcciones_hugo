@@ -1,7 +1,7 @@
-def es_par(numero):
-    if numero % 2 == 0:
-        return True
+def fibonacci(n):
+    if n <= 1:
+        return n
     else:
-        return False
+        return (fibonacci(n-1) + fibonacci(n-2))
 
-print(es_par(7))
+print([fibonacci(i) for i in range(10)])

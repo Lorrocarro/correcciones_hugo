@@ -1,4 +1,7 @@
-def convertir_a_mayusculas(texto):
-    return texto.upper()
+def calcular_promedio(notas):
+    total = sum(notas)
+    promedio = total / len(notas)
+    return promedio
 
-print(convertir_a_mayusculas("hola, mundo!"))
+notas = [85, 92, 78, 91, 88]
+print("El promedio de las notas es:", calcular_promedio(notas))

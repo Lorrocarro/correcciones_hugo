@@ -1,6 +1,7 @@
-def calcular_promedio(numeros):
-    total = sum(numeros)
-    return total / len(numeros)
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
 
-calificaciones = [85, 92, 78, 91, 88]
-print("El promedio de las calificaciones es:", calcular_promedio(calificaciones))
+print(factorial(5))
